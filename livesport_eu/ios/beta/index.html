@@ -1,1 +1,92 @@
-Hello World
+<!doctype html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>LiveSport.cz iOS beta testing</title>
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet"/>
+
+    <link href="css/presentation.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Váš prohlížeč <b>nepodporuje funkce potřebné</b> k plnohodnotné prezentaci, vidíte pouze zjednodušenou verzi.</p>
+    <p>Pro plnohodnotnou prezentaci použijte prosím poslední verzi <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> prohlížeče.</p>
+</div>
+
+<div id="impress">
+    <div id="uvod" class="step partial-visible-step slide" data-x="0" data-y="0">
+        <img src="image/logo.png" class="ls_logo"/>
+        <div class="title">LiveSport.cz</div>
+        <div class="sub-title">iOS beta testování</div>
+        <div class="sub-title gray-text"><a href="#/install">Instalace</a>, <a href="#/update">update</a> a spuštění</div>
+    </div>
+
+    <div id="install" class="step slide" data-x="88" data-y="-170" data-rotate="60" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+        <div class="sub-title">Instalace</div>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+        </ul>
+    </div>
+    <div id="update" class="step slide" data-x="102" data-y="-146" data-rotate="60" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+        <div class="sub-title">Update</div>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+        </ul>
+    </div>
+
+
+    <div id="step-1" class="step slide" data-x="85" data-y="-72" data-rotate="112" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+    <div id="step-2" class="step slide" data-x="70" data-y="-45" data-rotate="128" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+
+    <div id="step-3" class="step slide" data-x="15" data-y="-15" data-rotate="172" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+    <div id="step-4" class="step slide" data-x="-15" data-y="-15" data-rotate="188" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+
+    <div id="step-5" class="step slide" data-x="-70" data-y="-45" data-rotate="232" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+    <div id="step-6" class="step slide" data-x="-85" data-y="-72" data-rotate="248" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+
+    <div id="step-7" class="step slide" data-x="-85" data-y="-137" data-rotate="292" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+    <div id="step-8" class="step slide" data-x="-70" data-y="-165" data-rotate="308" data-scale=".015">
+        <a class="button back" href="#/uvod"><</a>
+    </div>
+</div>
+
+<div class="hint">
+    <p>Pro navigaci použijte mezerník nebo šipky</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
