@@ -103,57 +103,6 @@ a.back {
     left: 0.2em;
 }
 
-a.controll {
-    position: absolute;
-    top: 0.2em;
-    right: 0.2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
-a.controll.prev {
-    margin-right: 100px;
-}
-
-a.controll.next {
-}
-
-img.slide_image {
-    position: absolute;
-    margin: auto;
-    top: 110px;
-    left: 0;
-    right: 0;
-    max-width: 740px;
-    max-height: 550px;
-}
-
-img.slide_image.with_text {
-    margin: 0px;
-    left: 80px;
-}
-
-div.text {
-    position: absolute;
-    margin: auto;
-    top: 110px;
-    left: 0;
-    right: 0;
-    max-width: 740px;
-    max-height: 550px;
-}
-
-div.text.with_image {
-    margin: 0px;
-    left: 420px;
-    right: 80px;
-}
-
-.note {
-    font-size: 70%;
-    line-height: 110%;
-}
-
 /*
     Because the main point behind the impress.js demo is to demo impress.js
     we display a fallback message for users with browsers that don't support
